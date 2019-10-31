@@ -1,0 +1,286 @@
+@import '../../../assets/sass/tools/_mixins' 
+
+$gap: 30px
+
+[class*="pg-single"]
+	&[class*="loja"]
+		.post-content
+			align-items: flex-start!important
+	.preview
+		width: 52%
+		position: relative
+		overflow: hidden
+		padding-top: 29.25%
+		+mq(737px, max)
+			width: 100%
+			padding-top: 56.25%
+		iframe
+			position: absolute
+			top: 0
+			left: 0
+			width: 100%
+			height: 100%
+			border: 0	    
+		& + *
+			flex: 1 
+			padding-left: $gap/2
+			+mq(737px, max)
+				padding-left: 0
+				padding-top: $gap/2
+	.post-content
+		padding-top: $gap/2
+		.track-price
+			padding-right: 10px
+			margin-left: auto
+		.tracklist-title
+			display: block 
+			margin: 45px auto
+			+mq(892px, max)
+				justify-content: space-between
+				display: flex
+				flex-flow: row wrap
+				align-items: center			
+			.extensionSwitcher
+				display: flex
+				flex-flow: row wrap
+				justify-content: space-between
+				align-items: stretch
+				border: 2px white solid
+				border-radius: 5px
+				width: 110px
+				float: right
+				margin-top: -7px
+				position: relative
+				+mq(892px, max)
+					float: none 
+					margin-left: auto
+				&::before
+					content: 'Escolha um formato:'
+					position: absolute
+					+mq(449px, max)
+						display: none
+					width: 105px
+					font-size: 11px
+					left: -110px
+					top: 6px				
+				>*
+					flex: 1
+					text-align: center
+					position: relative
+					padding: 2px
+					label
+						z-index: 1
+						display: block
+						width: 100%
+						line-height: 1.6
+						padding-top: 3px
+						font-size: 11px
+					input 
+						position: absolute
+						top: 0
+						left: 0
+						width: 100%
+						height: 100%
+						opacity: 0
+						cursor: pointer
+						z-index: 2		
+						&:checked + label 
+							background: white
+							color: black
+							border-radius: 5px
+			&::after
+				clear: both 
+				content: ''
+				display: block
+		.tracklist
+			margin: 0 0 45px
+			.track-price,
+			.track-to-cart
+				align-self: flex-end
+			.track-title
+				margin-bottom: 5px
+				color: lighten(gold, 25%)
+				flex: 0 0 auto 
+				width: 100%
+				text-align: left!important
+			audio 
+				min-width: calc(100% - 100px)
+				width: calc(100% - 100px)			
+				height: 25px
+				filter: invert(1)
+				background: #f1f3f4	
+				&:last-child
+				    margin: 0
+				    padding: 0
+				    width: 100%				
+				&.disabled
+					opacity: .1
+					pointer-events: none
+					transition: all 500ms ease-in-out
+			>*
+				display: flex
+				flex-flow: row wrap
+				justify-content: flex-start
+				align-items: center			
+				&.incart
+					opacity: .3
+					pointer-events: none
+				&:not(:last-of-type)
+					border-bottom: 1px rgba(255,255,255,.1) solid
+					padding-bottom: 15px				
+					margin-bottom: $gap/2
+			.disabled .v-audio-player .audio-wrapper .audio-player
+				pointer-events: none 
+				opacity: .3
+			.v-audio-player
+				padding-right: 15px
+				flex: 1
+				.audio-wrapper
+					padding: 0
+					background: none
+					.audio-player
+						height: 24px!important
+						width: 24px!important
+						background-size: contain!important
+						flex: 0 0 auto
+						filter: hue-rotate(275deg) brightness(2.5)
+					.audio-info
+						display: flex 
+						flex-flow: row wrap 
+						align-items: center 
+						.progress-wrapper
+							height: 1px
+							display: none
+							.progress-bar
+								.progress
+									&-btn
+										top: -3px
+									border-radius: 999px
+								background: #c5c396
+								border-radius: 999px
+						.audio-name
+							color: #c5c396
+						.time-wrapper
+							padding-left: 10px
+							color: #c5c396
+							font-weight: bold
+							top: -1px  
+							font-size: 13px
+							.time-l 
+								display: none
+		&[class*="produtos"]
+			display: flex
+			flex-flow: row wrap 
+			justify-content: space-between 
+			align-items: flex-start 
+			+mq(892px, max)
+				flex-flow: column wrap
+				justify-content: center
+				align-items: center
+			#emailFieldHandler
+				+mq(892px, max)
+					width: 100%
+			.emailField
+				border: 2px white solid
+				padding: 10px
+				display: block
+				width: 100%
+				color: black
+				font-size: 14px
+				background: black
+				color: white
+				max-width: 228px
+				margin-top: 10px
+				+mq(892px, max)
+					margin: 10px auto 0
+					max-width: 100%
+				&::before
+					content: ''
+					display: block 
+					position: absolute
+					top: -10px
+					right: 10px
+					width: 0
+					height: 0
+					border-style: solid
+					border-width: 0 10px 10px 10px
+					border-color: transparent transparent white transparent				
+				input 
+					background: transparent
+					color: white
+					text-align: left
+					width: 100%
+					display: block
+					&[placeholder]
+						color: white
+					&::-moz-placeholder
+						color: white
+					&::-webkit-input-placeholder
+						color: white
+					&:-ms-input-placeholder 
+						color: white					
+			h3
+				font-size: 32px
+			.product-price
+				font-size: 1.4rem
+				& + .description
+					margin: $gap/2 0
+					iframe
+						max-width: 100%
+						+mq(737px, max)
+							width: 100%
+					& ~ a 
+						+mq(892px, max)
+							width: 100%
+				small
+					font-size: 12px
+					display: block
+			>img 
+				flex: 0 0 auto 
+				max-width: 40%
+				+mq(892px, max)
+					width: 100%
+					max-width: initial
+				& ~ * 
+					flex: 1 
+					padding-left: $gap
+					+mq(892px, max)
+						padding-left: 0
+						margin-bottom: $gap
+						text-align: center
+					&:last-child:not(:nth-child(2))
+						padding-left: 0
+						padding-top: $gap 
+						padding-bottom: 45px
+						+mq(892px, max)
+							padding-bottom: 0
+							padding-top: 0
+						width: 100%
+						flex: 0 0 auto
+						iframe, object 
+							width: 100%
+		>img 
+			margin: 0px $gap $gap 0px
+			float: left
+			max-width: 100%
+			+mq(814px, max)
+				width: 100%
+			& + *
+				display: block 
+				max-width: 100%
+			+mq(892px, max)
+				margin: 0 auto $gap
+		p 
+			&:not(:last-of-type)
+				margin-bottom: $gap/2
+			line-height: 1.6
+			font-size: 16px			
+			+mq(814px, max)
+				text-align: justify
+			a 
+				color: #c5c396
+				text-decoration: underline
+				&:hover 
+					text-decoration: none
+			b, strong, h1, h2, h3, h4
+				font-weight: bold			

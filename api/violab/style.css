@@ -1,0 +1,21 @@
+/*! 
+    Theme Name: ViolaB - WP Api Rest 
+    Version: 1.0.0 
+    Author: Wesley Andrade
+    Author URI: github.com/wesandradaelves-jobs
+*/
+
+:root{
+    --blue: #25323e;
+}
+
+body,html{
+    background-color: var(--blue);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}

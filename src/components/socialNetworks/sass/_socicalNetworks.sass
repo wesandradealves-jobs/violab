@@ -1,0 +1,14 @@
+$gap: 20px
+
+.social-networks
+	display: flex
+	flex-flow: row wrap 
+	align-items: center 
+	>*
+		font-size: 22px
+		[class*="socicon-"]
+			line-height: 0
+			&:hover 
+				color: white
+		&:not(:last-child)
+			margin-right: $gap

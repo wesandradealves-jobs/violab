@@ -1,0 +1,87 @@
+@import '../../../assets/sass/tools/_mixins'
+
+#wrap
+	&.pg-loja,
+	&.pg-single-loja
+		.header
+			.container
+				+mq(881px, min)
+					flex-flow: column wrap
+					justify-content: center
+					align-items: center 
+					.logo 
+						margin-bottom: 30px
+					.navigation 
+						// margin-right: -50px
+						> ul 
+							flex: 1
+							justify-content: center
+					>* 
+						width: 100%
+						text-align: center
+	&.pg-loja
+		.post-grid
+			display: flex
+			flex-flow: row wrap
+			justify-content: flex-start
+			align-items: stretch	
+			margin: 0 -15px
+			+mq(568px, max)
+				margin: 0 auto
+			> *
+				flex: 0 0 auto
+				width: 33.333%
+				padding: 15px
+				+mq(814px, max)
+					width: 50%
+					+mq(568px, max)
+						width: 100%
+						padding: 15px 0
+				>*
+					display: flex
+					flex-flow: column
+					padding: 15px
+					cursor: pointer
+					text-align: center
+					border: 1px white solid
+					.thumbnail
+						display: block
+						background-position: center
+						background-size: cover 
+						background-repeat: no-repeat
+						width: 100%
+						padding: 0 0 100%
+						margin: 0 auto 15px
+						position: relative
+						overflow: hidden
+						&:hover .-zoom 
+							transform: scale(1.05)
+						&.-zoom
+							position: absolute
+							top: 0
+							left: 0
+							padding: 0
+							height: 100%
+							width: inherit
+							transition: 500ms ease all
+					h3 
+						font-size: 19px
+						font-weight: bold 
+						color: inherit
+						margin: 0 auto 8px 
+						& ~ *
+							&:not(:last-child)
+								margin: 0 auto 8px
+					h4 
+						font-size: 20px
+					p 
+						display: block 
+						line-height: 1.6
+						font-size: 18px!important
+						color: gray
+						width: 100%
+					> a 
+						&:hover
+							text-decoration: underline
+						font-size: 12px
+						text-transform: uppercase

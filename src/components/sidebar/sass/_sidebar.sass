@@ -1,0 +1,65 @@
+@import '../../../assets/sass/tools/_mixins' 
+
+.sidebar
+	width: 200px
+	+mq(970px, max)
+		border-top: 1px rgba(255,255,255,.35) solid
+		border-bottom: 1px rgba(255,255,255,.35) solid
+		flex: 0 0 auto 
+		width: 100%
+		padding: 15px 0 0
+		margin: 15px 0
+		& + *
+			padding-left: 0!important
+	input[type="text"] 
+		border: 1px white solid 
+		padding: 5px
+		background-color: transparent
+		color: white
+		display: block
+		width: 100%
+	&-inner
+		>div 
+			margin-bottom: 15px
+			ul
+				+mq(970px, max)
+					display: flex 
+					flex-flow: row wrap 
+					justify-content: space-between
+					+mq(640px, max)
+						flex-flow: column wrap
+			.checkbox 
+				position: relative
+				width: 10px
+				height: 10px
+				overflow: hidden
+				display: inline-block 
+				vertical-align: middle
+				top: -2px
+				label 
+					position: absolute 
+					z-index: 1
+					height: inherit
+					width: inherit
+					top: 0
+					left: 0
+					border: 1px white solid 
+					&::after 
+						height: calc(100% - 2px)
+						width: calc(100% - 2px)
+						margin: 1px
+						display: none 
+						background-color: white
+						content: ''
+				input 
+					width: inherit
+					height: inherit
+					display: block 
+					position: relative
+					z-index: 2
+					opacity: 0 
+					cursor: pointer 
+					border: 0
+					&:checked ~ label 
+						&::after 
+							display: block 

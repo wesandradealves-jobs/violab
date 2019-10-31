@@ -1,0 +1,172 @@
+@import '../../../../../assets/sass/tools/_mixins' 
+
+$bg: rgba(0,0,0,.95)
+
+.shopCheckout
+	position: fixed
+	top: 0
+	right: -999px
+	transition: 500ms ease all
+	width: 100vw
+	max-width: 414px
+	+mq(814px, max)
+		position: absolute
+		margin: -30px -15px
+		width: 100vw
+		max-width: 568px
+	height: 100vh
+	background: $bg
+	z-index: 99
+	color: white
+	&.uncollapsed
+		right: 0
+	&Inner
+		height: 100%
+		width: 100%
+		padding: 30px
+		display: flex
+		flex-flow: column
+		.screen-title
+			>a
+				font-size: 16px
+			display: flex
+			flex-flow: row
+			justify-content: space-between
+			align-items: center	
+			& + a 
+				text-align: left
+				>small
+					font-size: 10px	
+		h4
+			font-size: 1rem
+			display: flex
+			flex-flow: row wrap 
+			justify-content: space-between
+			align-items: center
+			>a 
+				font-size: 11px
+		h3 
+			font-size: 1.6rem
+			font-weight: bold
+			flex: 0 0 auto
+		form 
+			flex: 1
+			display: flex 
+			flex-flow: column
+			overflow: auto
+			>div 
+				.btn 
+					width: 100%
+					margin-top: auto
+					+mq(814px, max)
+						margin-top: 15px
+				height: 100%
+				display: flex
+				flex-flow: column
+				justify-content: flex-start
+			.prePayment
+				.checkout-total 
+					font-size: 30px
+					font-weight: bold
+					text-align: right
+					small 
+						display: block
+						font-size: .8rem
+						font-weight: initial
+				>.product-checklist
+					margin: 15px auto
+					width: 100%
+					>*
+						display: flex
+						flex-flow: row wrap 
+						align-items: stretch
+						background-color: whitesmoke
+						color: gray
+						font-weight: bold
+						&:nth-child(odd)
+							background-color: lightgray
+						>*
+							flex: 0 0 auto
+							padding: 8px 15px
+							font-size: 14px
+							&:last-child
+								flex: 0 0 auto 
+								text-align: right
+								width: 100px
+							&:nth-child(3)
+								flex: 1
+							&:not(:nth-child(3)):not(:last-child)
+								width: 50px
+			&[name="papaymentMethods"]
+				.methods-list
+					display: flex 
+					flex-flow: row wrap 
+					justify-content: center
+					align-items: stretch
+					color: black
+					margin: 30px -15px 0
+					.method
+						flex: 1
+						padding: 0 15px
+						&-inner
+							font-size: 14px
+							display: flex
+							flex-flow: column
+							justify-content: center
+							align-items: center		
+							cursor: pointer
+							background-color: white 
+							border-radius: 5px 
+							padding: 30px
+							text-align: center 
+							height: 100%
+							cursor: pointer
+							transition: 500ms linear all
+							&:hover
+								transform: scale(1.05)
+							img 
+								margin-bottom: 8px
+			>.btn
+				margin-top: auto
+				display: block
+				width: 100%
+			p 
+				display: block 
+				&[data-step]
+					height: calc(100% - 23px)
+					display: flex
+					flex-flow: column				
+					.btn 
+						margin-top: auto
+						+mq(814px, max)
+							margin-top: 15px
+						display: block 
+						width: 100%
+				span 
+					display: block
+					&:not(:last-of-type)
+						border-bottom: 1px rgba(255,255,255,.25) solid 
+					&.siders
+						display: flex 
+						flex-flow: row wrap 
+						justify-content: space-between
+						>* 
+							flex: 1
+					input, textarea
+						overflow: hidden
+						white-space: nowrap
+						text-overflow: ellipsis
+						background: none 
+						overflow: hidden
+						resize: none
+						padding: 15px 
+						color: inherit 
+						font-size: 14px
+						display: block
+						width: 100%
+						&.err
+							border-bottom-color: red
+							color: white
+							background-color: transparentize(red, .65)
+						&[readonly]
+							opacity: .6

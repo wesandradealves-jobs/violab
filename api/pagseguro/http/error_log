@@ -1,0 +1,212 @@
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'cliente' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 6
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'donoCartao' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 7
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'creditCardToken' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 8
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'hash' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 9
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'forma_pagamento' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 11
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'nome' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 30
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'cpf' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 31
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'telefone' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 32
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'telefone' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 33
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'email' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 34
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'endereco' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 37
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'numero' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 38
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'complemento' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 39
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'bairro' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 40
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'cep' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 41
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'cidade' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 42
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'estado' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 43
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'nome' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 52
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'cpf' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 53
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'telefone' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 55
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'telefone' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 56
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'endereco' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 57
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'numero' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 58
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'complemento' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 59
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'bairro' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 60
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'cep' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 61
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'cidade' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 62
+[24-Aug-2019 10:26:40 America/Sao_Paulo] PHP Warning:  Illegal string offset 'estado' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 63
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'cliente' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 11
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'donoCartao' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 12
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'creditCardToken' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 13
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'hash' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 14
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'forma_pagamento' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 16
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'nome' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 33
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'cpf' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 34
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'telefone' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 35
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'telefone' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 36
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'email' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 37
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'endereco' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 40
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'numero' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 41
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'complemento' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 42
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'bairro' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 43
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'cep' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 44
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'cidade' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 45
+[24-Aug-2019 10:29:44 America/Sao_Paulo] PHP Warning:  Illegal string offset 'estado' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 46
+[24-Aug-2019 11:05:21 America/Sao_Paulo] PHP Warning:  Illegal string offset 'proccess' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 8
+[24-Aug-2019 11:05:21 America/Sao_Paulo] PHP Warning:  Illegal string offset 'formData' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 8
+[24-Aug-2019 11:05:21 America/Sao_Paulo] PHP Warning:  Illegal string offset 'personalData' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 8
+[24-Aug-2019 11:05:51 America/Sao_Paulo] PHP Warning:  Illegal string offset 'proccess' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 8
+[24-Aug-2019 11:05:51 America/Sao_Paulo] PHP Warning:  Illegal string offset 'formData' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 8
+[24-Aug-2019 11:05:51 America/Sao_Paulo] PHP Warning:  Illegal string offset 'personalData' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 8
+[24-Aug-2019 11:05:51 America/Sao_Paulo] PHP Warning:  Illegal string offset 'proccess' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 10
+[24-Aug-2019 11:07:18 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 8
+[24-Aug-2019 11:08:35 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 8
+[24-Aug-2019 11:09:27 America/Sao_Paulo] PHP Warning:  Illegal string offset 'proccess' in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 8
+[24-Aug-2019 11:09:27 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 8
+[24-Aug-2019 11:12:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 9
+[24-Aug-2019 11:14:08 America/Sao_Paulo] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 13
+[24-Aug-2019 17:35:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 21
+[24-Aug-2019 17:39:21 America/Sao_Paulo] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 18
+[24-Aug-2019 18:11:11 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '++' (T_INC) in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 49
+[24-Aug-2019 18:11:37 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 48
+[24-Aug-2019 18:12:30 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 50
+[24-Aug-2019 18:12:30 America/Sao_Paulo] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 58
+[24-Aug-2019 18:13:07 America/Sao_Paulo] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 56
+[24-Aug-2019 18:13:39 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 48
+[24-Aug-2019 18:13:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php:56
+Stack trace:
+#0 {main}
+  thrown in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 56
+[24-Aug-2019 18:14:18 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 48
+[24-Aug-2019 18:14:18 America/Sao_Paulo] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 56
+[24-Aug-2019 18:15:19 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 48
+[24-Aug-2019 18:15:19 America/Sao_Paulo] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 56
+[24-Aug-2019 18:15:54 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 50
+[24-Aug-2019 18:15:54 America/Sao_Paulo] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 58
+[24-Aug-2019 18:21:50 America/Sao_Paulo] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 56
+[24-Aug-2019 18:56:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: itemId dow not exists in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php:14
+Stack trace:
+#0 /home1/hottan44/public_html/violab.com.br/checkout/http/request.php(76): MyClass->__get('itemId')
+#1 {main}
+  thrown in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 14
+[24-Aug-2019 18:57:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: itemId dow not exists in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php:14
+Stack trace:
+#0 /home1/hottan44/public_html/violab.com.br/checkout/http/request.php(76): MyClass->__get('itemId')
+#1 {main}
+  thrown in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 14
+[24-Aug-2019 19:02:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type Foo as array in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php:42
+Stack trace:
+#0 {main}
+  thrown in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 42
+[24-Aug-2019 19:02:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type Foo as array in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php:43
+Stack trace:
+#0 {main}
+  thrown in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 43
+[24-Aug-2019 20:09:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php:52
+Stack trace:
+#0 {main}
+  thrown in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 52
+[24-Aug-2019 20:20:50 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 84
+[25-Aug-2019 09:19:19 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:19:19 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:19:19 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:20:23 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:20:23 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:20:23 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:21:26 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:21:26 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:21:26 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:23:08 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:23:08 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:23:08 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:24:27 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:24:27 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:24:27 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:30:48 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:30:48 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:30:48 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 111
+[25-Aug-2019 09:31:52 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:31:52 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:31:52 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:32:33 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 114
+[25-Aug-2019 09:32:33 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 114
+[25-Aug-2019 09:32:33 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 114
+[25-Aug-2019 09:33:28 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:33:28 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:33:28 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:35:51 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:35:51 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:35:51 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:37:54 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:37:54 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:37:54 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:39:38 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:39:38 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:39:38 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:39:56 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:39:56 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:39:56 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:42:56 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 113
+[25-Aug-2019 09:42:56 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 113
+[25-Aug-2019 09:42:56 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 113
+[25-Aug-2019 09:48:24 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:48:24 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:48:24 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:49:01 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:49:01 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[25-Aug-2019 09:49:01 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/checkout/http/request.php on line 112
+[27-Aug-2019 22:44:58 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/req.php on line 9
+[27-Aug-2019 22:45:37 America/Sao_Paulo] PHP Warning:  require(/home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/../wp-load.php): failed to open stream: No such file or directory in /home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/req.php on line 5
+[27-Aug-2019 22:45:37 America/Sao_Paulo] PHP Warning:  require(/home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/../wp-load.php): failed to open stream: No such file or directory in /home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/req.php on line 5
+[27-Aug-2019 22:45:37 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '/home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/../wp-load.php' (include_path='.:/opt/php70/lib/php') in /home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/req.php on line 5
+[27-Aug-2019 22:45:53 America/Sao_Paulo] PHP Warning:  require(/home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/../wp-load.php): failed to open stream: No such file or directory in /home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/req.php on line 5
+[27-Aug-2019 22:45:53 America/Sao_Paulo] PHP Warning:  require(/home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/../wp-load.php): failed to open stream: No such file or directory in /home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/req.php on line 5
+[27-Aug-2019 22:45:53 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '/home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/../wp-load.php' (include_path='.:/opt/php70/lib/php') in /home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/req.php on line 5
+[27-Aug-2019 22:46:11 America/Sao_Paulo] PHP Warning:  require(/home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/../wp-load.php): failed to open stream: No such file or directory in /home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/req.php on line 3
+[27-Aug-2019 22:46:11 America/Sao_Paulo] PHP Warning:  require(/home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/../wp-load.php): failed to open stream: No such file or directory in /home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/req.php on line 3
+[27-Aug-2019 22:46:11 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '/home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/../wp-load.php' (include_path='.:/opt/php70/lib/php') in /home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/req.php on line 3
+[27-Aug-2019 23:07:24 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/req.php on line 110
+[27-Aug-2019 23:07:24 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/req.php on line 110
+[27-Aug-2019 23:07:24 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home1/hottan44/public_html/violab.com.br/sistema/wp-content/themes/violab/_checkout/http/req.php on line 110
+[24-Sep-2019 11:16:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php:115
+Stack trace:
+#0 /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php(115): SimpleXMLElement->__construct('')
+#1 {main}
+  thrown in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php on line 115
+[24-Sep-2019 11:23:45 America/Sao_Paulo] PHP Warning:  require_once(../../phpmailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php on line 3
+[24-Sep-2019 11:23:45 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '../../phpmailer/PHPMailerAutoload.php' (include_path='.:/opt/php70/lib/php') in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php on line 3
+[24-Sep-2019 11:36:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php:1798
+Stack trace:
+#0 /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php(1539): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 24 S...', 'This is a multi...')
+#1 /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php(1375): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php(157): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php on line 1798
+[24-Sep-2019 11:38:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\PHPMailer' not found in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php on line 5
+[24-Sep-2019 11:39:55 America/Sao_Paulo] PHP Warning:  require(../../phpmailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php on line 3
+[24-Sep-2019 11:39:55 America/Sao_Paulo] PHP Warning:  require(../../phpmailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php on line 3
+[24-Sep-2019 11:39:55 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '../../phpmailer/PHPMailerAutoload.php' (include_path='.:/opt/php70/lib/php') in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php on line 3
+[24-Sep-2019 11:40:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php:1798
+Stack trace:
+#0 /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php(1539): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 24 S...', 'This is a multi...')
+#1 /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php(1375): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php(157): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php on line 1798
+[24-Sep-2019 11:58:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php on line 160
+[13-Oct-2019 02:01:23 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php on line 38
+[13-Oct-2019 02:01:24 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php on line 118
+[13-Oct-2019 02:01:24 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php on line 118
+[13-Oct-2019 02:01:24 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php on line 118
+[13-Oct-2019 02:03:49 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/upper952/dev.uppercreative.com.br/pagseguro/http/request.php on line 34
+[13-Oct-2019 02:03:50 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home/upper952/dev.uppercreative.com.br/pagseguro/http/request.php on line 110
+[13-Oct-2019 02:03:50 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home/upper952/dev.uppercreative.com.br/pagseguro/http/request.php on line 110
+[13-Oct-2019 02:03:50 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home/upper952/dev.uppercreative.com.br/pagseguro/http/request.php on line 110
+[13-Oct-2019 03:26:45 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/upper952/dev.uppercreative.com.br/pagseguro/http/request.php on line 34
+[13-Oct-2019 03:26:46 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home/upper952/dev.uppercreative.com.br/pagseguro/http/request.php on line 110
+[13-Oct-2019 03:26:46 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home/upper952/dev.uppercreative.com.br/pagseguro/http/request.php on line 110
+[13-Oct-2019 03:26:46 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home/upper952/dev.uppercreative.com.br/pagseguro/http/request.php on line 110
+[13-Oct-2019 03:30:05 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php on line 38
+[13-Oct-2019 03:30:05 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php on line 118
+[13-Oct-2019 03:30:05 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): Unauthorized in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php on line 118
+[13-Oct-2019 03:30:05 America/Sao_Paulo] PHP Warning:  simplexml_load_string(): ^ in /home/upper952/dev.uppercreative.com.br/pagseguro/http/req.php on line 118

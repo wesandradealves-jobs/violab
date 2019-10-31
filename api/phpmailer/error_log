@@ -1,0 +1,102 @@
+[05-Jul-2019 21:01:44 UTC] PHP Warning:  require(./phpmailer/src/PHPMailer.php): failed to open stream: No such file or directory in /home1/eplane83/public_html/phpmailer/send.php on line 4
+[05-Jul-2019 21:01:44 UTC] PHP Warning:  require(./phpmailer/src/PHPMailer.php): failed to open stream: No such file or directory in /home1/eplane83/public_html/phpmailer/send.php on line 4
+[05-Jul-2019 21:01:44 UTC] PHP Fatal error:  require(): Failed opening required './phpmailer/src/PHPMailer.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home1/eplane83/public_html/phpmailer/send.php on line 4
+[05-Jul-2019 21:11:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PHPMailer\PHPMailer\PHPMailer::replyTo() in /home1/eplane83/public_html/phpmailer/send.php:48
+Stack trace:
+#0 {main}
+  thrown in /home1/eplane83/public_html/phpmailer/send.php on line 48
+[09-Oct-2019 07:54:51 America/Sao_Paulo] PHP Warning:  require(./phpmailer/src/PHPMailer.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 6
+[09-Oct-2019 07:54:51 America/Sao_Paulo] PHP Warning:  require(./phpmailer/src/PHPMailer.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 6
+[09-Oct-2019 07:54:51 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required './phpmailer/src/PHPMailer.php' (include_path='.:/opt/php70/lib/php') in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 6
+[09-Oct-2019 08:04:32 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 14
+[09-Oct-2019 08:05:22 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 14
+[09-Oct-2019 08:08:54 America/Sao_Paulo] PHP Warning:  Illegal string offset 'itemDescription' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 19
+[09-Oct-2019 08:08:54 America/Sao_Paulo] PHP Warning:  Illegal string offset 'itemUrl' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 20
+[09-Oct-2019 08:08:54 America/Sao_Paulo] PHP Warning:  Illegal string offset 'itemUrl' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 20
+[09-Oct-2019 08:08:54 America/Sao_Paulo] PHP Warning:  Illegal string offset 'itemDescription' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 19
+[09-Oct-2019 08:08:54 America/Sao_Paulo] PHP Warning:  Illegal string offset 'itemUrl' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 20
+[09-Oct-2019 08:08:54 America/Sao_Paulo] PHP Warning:  Illegal string offset 'itemUrl' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 20
+[09-Oct-2019 08:08:54 America/Sao_Paulo] PHP Warning:  Illegal string offset 'itemDescription' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 19
+[09-Oct-2019 08:08:54 America/Sao_Paulo] PHP Warning:  Illegal string offset 'itemUrl' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 20
+[09-Oct-2019 08:08:54 America/Sao_Paulo] PHP Warning:  Illegal string offset 'itemUrl' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 20
+[09-Oct-2019 08:09:50 America/Sao_Paulo] PHP Warning:  Illegal string offset '' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 19
+[09-Oct-2019 08:09:50 America/Sao_Paulo] PHP Warning:  Illegal string offset '' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 19
+[09-Oct-2019 08:09:50 America/Sao_Paulo] PHP Warning:  Illegal string offset '' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 19
+[09-Oct-2019 08:10:03 America/Sao_Paulo] PHP Warning:  Illegal string offset 'itemId' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 19
+[09-Oct-2019 08:10:03 America/Sao_Paulo] PHP Warning:  Illegal string offset 'itemId' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 19
+[09-Oct-2019 08:10:03 America/Sao_Paulo] PHP Warning:  Illegal string offset 'itemId' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 19
+[09-Oct-2019 08:10:19 America/Sao_Paulo] PHP Warning:  Illegal string offset 'itemId' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 19
+[09-Oct-2019 08:10:19 America/Sao_Paulo] PHP Warning:  Illegal string offset 'itemId' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 19
+[09-Oct-2019 08:10:19 America/Sao_Paulo] PHP Warning:  Illegal string offset 'itemId' in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 19
+[12-Oct-2019 10:28:22 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/upper952/dev.uppercreative.com.br/phpmailer/send.php on line 16
+[12-Oct-2019 10:31:39 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}' in /home/upper952/dev.uppercreative.com.br/phpmailer/send.php on line 18
+[12-Oct-2019 10:32:00 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected end of file in /home/upper952/dev.uppercreative.com.br/phpmailer/send.php on line 82
+[12-Oct-2019 10:52:03 America/Sao_Paulo] PHP Warning:  Illegal string offset 'url' in /home/upper952/dev.uppercreative.com.br/phpmailer/send.php on line 17
+[12-Oct-2019 10:52:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/upper952/dev.uppercreative.com.br/phpmailer/send.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/upper952/dev.uppercreative.com.br/phpmailer/send.php on line 17
+[12-Oct-2019 10:52:13 America/Sao_Paulo] PHP Warning:  Illegal string offset 'url' in /home/upper952/dev.uppercreative.com.br/phpmailer/send.php on line 17
+[12-Oct-2019 10:52:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/upper952/dev.uppercreative.com.br/phpmailer/send.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/upper952/dev.uppercreative.com.br/phpmailer/send.php on line 17
+[12-Oct-2019 11:26:43 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '{' in /home/upper952/dev.uppercreative.com.br/phpmailer/send.php on line 53
+[12-Oct-2019 11:27:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '{' in /home/upper952/dev.uppercreative.com.br/phpmailer/send.php on line 53
+[12-Oct-2019 11:28:05 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '{' in /home/upper952/dev.uppercreative.com.br/phpmailer/send.php on line 53
+[12-Oct-2019 11:34:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php:1466
+Stack trace:
+#0 /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php(1371): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/upper952/dev.uppercreative.com.br/phpmailer/send.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php on line 1466
+[12-Oct-2019 11:34:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php:1466
+Stack trace:
+#0 /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php(1371): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/upper952/dev.uppercreative.com.br/phpmailer/send.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php on line 1466
+[12-Oct-2019 11:35:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php:1466
+Stack trace:
+#0 /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php(1371): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/upper952/dev.uppercreative.com.br/phpmailer/send.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php on line 1466
+[12-Oct-2019 11:35:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php:1466
+Stack trace:
+#0 /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php(1371): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/upper952/dev.uppercreative.com.br/phpmailer/send.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php on line 1466
+[12-Oct-2019 11:36:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php:1466
+Stack trace:
+#0 /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php(1371): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/upper952/dev.uppercreative.com.br/phpmailer/send.php(72): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php on line 1466
+[12-Oct-2019 11:37:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php:1466
+Stack trace:
+#0 /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php(1371): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/upper952/dev.uppercreative.com.br/phpmailer/send.php(74): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home/upper952/dev.uppercreative.com.br/phpmailer/src/PHPMailer.php on line 1466
+[13-Oct-2019 01:55:51 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 38
+[13-Oct-2019 03:02:14 America/Sao_Paulo] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[13-Oct-2019 03:02:14 America/Sao_Paulo] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[13-Oct-2019 03:02:14 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/php70/lib/php') in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[14-Oct-2019 14:37:51 America/Sao_Paulo] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[14-Oct-2019 14:37:51 America/Sao_Paulo] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[14-Oct-2019 14:37:51 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/php70/lib/php') in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[14-Oct-2019 14:38:10 America/Sao_Paulo] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[14-Oct-2019 14:38:10 America/Sao_Paulo] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[14-Oct-2019 14:38:10 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/php70/lib/php') in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[14-Oct-2019 14:38:35 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/upper952/dev.uppercreative.com.br/phpmailer/paypalConfirmMail.php on line 38
+[14-Oct-2019 14:47:57 America/Sao_Paulo] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[14-Oct-2019 14:47:57 America/Sao_Paulo] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[14-Oct-2019 14:47:57 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/php70/lib/php') in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[14-Oct-2019 14:47:59 America/Sao_Paulo] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[14-Oct-2019 14:47:59 America/Sao_Paulo] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[14-Oct-2019 14:47:59 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/php70/lib/php') in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[14-Oct-2019 14:51:48 America/Sao_Paulo] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[14-Oct-2019 14:51:48 America/Sao_Paulo] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59
+[14-Oct-2019 14:51:48 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/php70/lib/php') in /home/upper952/dev.uppercreative.com.br/phpmailer/get_oauth_token.php on line 59

@@ -1,0 +1,41 @@
+@import '../../../../../../assets/sass/tools/_mixins' 
+
+.stepsNavigator
+	display: flex 
+	flex-flow: row wrap 
+	align-items: stretch
+	position: relative
+	margin: 25px auto
+	width: 100%
+	justify-content: space-between
+	z-index: 10
+	>*
+		flex: 0 0 auto 
+		width: 25%
+		display: flex
+		flex-flow: column
+		align-items: center
+		text-align: center
+		cursor: pointer
+		z-index: 5
+		&:not(.current)
+			opacity: .6
+		&.current
+			opacity: 1
+		span 
+			margin: 4px auto
+			display: block
+			font-size: 12px
+			width: 100%
+			overflow: hidden
+			max-width: 60px
+		small 
+			display: block 
+			font-size: 10px
+			height: 25px
+			width: 25px
+			border-radius: 999px
+			border: 1px white solid
+			line-height: 25px
+			text-align: center
+	

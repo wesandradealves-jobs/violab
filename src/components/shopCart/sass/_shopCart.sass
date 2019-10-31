@@ -1,0 +1,116 @@
+@import '../../../assets/sass/tools/_mixins'
+
+$gap: 30px
+$box-color: rgba(255,255,255,.35)
+
+.shopCart
+	margin-left: $gap
+	position: relative
+	>[class*="fa-"]
+		cursor: pointer
+		position: relative
+		>.qti 
+			position: absolute
+			top: 0
+			right: 0
+			display: block 
+			height: 15px
+			width: 15px
+			margin: -10px
+			text-indent: -1px
+			line-height: 18px
+			text-align: center
+			font-size: 9px
+			color: white 
+			text-align: center
+			background-color: #c5c396 
+			font-weight: bold
+			border-radius: 999px
+		&:hover .cart-list 
+			display: block
+	.cart-list 
+		color: white
+		position: absolute 
+		display: none
+		width: 140px
+		right: -10px 
+		top: calc(100% + 10px)
+		z-index: 15
+		background-color: $box-color
+		border-radius: 5px
+		padding: 5px 15px 15px
+		>*
+			&.cart-list-checkout
+				cursor: pointer
+				background-color: #c5c396 
+				color: white 
+				font-weight: bold
+				margin: 0 -15px -15px
+				padding: 5px 15px
+				border-radius: 0 0 5px 5px
+				text-align: center
+				&.-paypal
+					padding: 0
+					margin-top: 12px
+					background-color: #ffc439!important
+				&:hover 
+					background-color: darken(#c5c396, 25%)
+			&.cart-list-total
+				background-color: white
+				color: black
+				margin: -4px -15px 0
+				padding: 10px 15px
+				display: flex
+				flex-flow: column 
+				align-items: flex-end
+				position: relative
+				>[class*="fa-"]
+					position: absolute
+					top: 0
+					left: 0
+					font-size: 40px
+					top: calc(50% - 20px)
+					margin: 0 10px
+			&:not([class])
+				display: flex 
+				justify-content: space-between
+				align-items: center 
+				font-size: 14px
+				margin: 0 -15px
+				padding: 0 15px
+				&:not(:last-child)
+					border-bottom: 1px rgba(0,0,0,.15) solid
+					padding-bottom: 4px
+					margin-bottom: 4px
+				>[class*="fa-"]
+					cursor: pointer
+					flex: 0 0 auto 
+					transition: 500ms linear all
+					&:hover 
+						transform: scale(1.1)
+						color: #c5c396
+				>span
+					padding-right: $gap/3 
+					flex: 1
+					overflow: hidden
+					text-overflow: ellipsis
+					white-space: nowrap
+		&::before 
+			position: absolute 
+			top: -10px
+			right: 10px
+			content: ""
+			width: 0
+			height: 0
+			border-style: solid
+			border-width: 0 10px 10px 10px
+			border-color: transparent transparent $box-color transparent
+
+
+[class*="-single"][class*="-loja"],
+[class*="-loja"]
+	.shopCart
+		.cart-list 
+			background-color: gray
+			&::before 
+				border-color: transparent transparent gray transparent

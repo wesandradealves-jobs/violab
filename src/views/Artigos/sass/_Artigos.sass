@@ -1,0 +1,65 @@
+@import '../../../assets/sass/tools/_mixins'
+
+.pg-artigos
+	.post-grid
+		display: flex
+		flex-flow: row wrap
+		justify-content: flex-start
+		align-items: stretch	
+		margin: 0 -15px
+		+mq(568px, max)
+			margin: 0 auto
+		> *
+			flex: 0 0 auto
+			width: 33.333%
+			+mq(814px, max)
+				width: 50%
+				+mq(568px, max)
+					width: 100%
+					padding: 15px 0
+			&:hover
+				h3 
+					color: white
+			display: flex
+			flex-flow: column
+			padding: 15px
+			cursor: pointer
+			.thumbnail
+				display: block
+				background-position: center
+				background-size: cover 
+				background-repeat: no-repeat
+				width: 100%
+				padding: 0 0 100%
+				margin: 0 auto 15px
+				position: relative
+				overflow: hidden
+				&:hover .-zoom 
+					transform: scale(1.05)
+				&.-zoom
+					position: absolute
+					top: 0
+					left: 0
+					padding: 0
+					height: 100%
+					width: inherit
+					transition: 500ms ease all
+			h3 
+				font-size: 19px
+				font-weight: bold 
+				color: lightgray
+				margin-bottom: 8px
+			p 
+				display: block 
+				margin: 0 auto 8px
+				line-height: 1.6
+				font-size: 18px!important
+				color: gray
+				text-align: left
+				width: 100%
+			> a 
+				color: #c5c396
+				&:hover
+					text-decoration: underline
+				font-size: 12px
+				text-transform: uppercase

@@ -1,0 +1,46 @@
+@import '../../../assets/sass/tools/_colors' 
+
+$gap: 20px
+
+#header
+	position: fixed
+	z-index: 15
+	left: 0
+	top: 0
+	width: 100%
+	transition: 500ms all ease
+	color: #636363
+	*
+		transition: inherit
+	&.sticky 
+		top: -58px
+		background: rgba(0,0,0,.9)
+		.header
+			.navigation
+				&.-mobile
+					top: 60px
+			background-color: rgba(0,0,0,.35)
+			.container
+				padding-top: $gap
+				padding-bottom: $gap		
+	.header	
+		.logo
+			line-height: 0
+			* 
+				line-height: inherit
+		.container 
+			padding-top: $gap*2
+			padding-bottom: $gap*2
+			display: flex 
+			flex-flow: row wrap 
+			justify-content: space-between 
+			align-items: center
+	.topbar
+		background-color: $gray
+		.container
+			padding-top: $gap 
+			padding-bottom: $gap/2 
+			display: flex 
+			flex-flow: row wrap 
+			justify-content: flex-end
+			align-items: center

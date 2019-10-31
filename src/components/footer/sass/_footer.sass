@@ -1,0 +1,123 @@
+@import '../../../assets/sass/_app'
+@import '../../../assets/sass/tools/_mixins'  
+
+$gap: 30px
+
+.footer
+	color: white 
+	font-family: 'AdihausDIN'
+	button
+		background: transparent 
+		margin: 0
+		padding: 0
+		color: inherit
+		font-family: Arial
+		font-size: 30px
+		line-height: 0
+		top: -2px		
+		+mq(915px, min)
+			top: -4px
+			margin-left: -60px
+	.container 
+		display: flex 
+		flex-flow: row wrap 
+		+mq(914px, max)
+			flex-flow: column wrap
+		justify-content: space-between
+		align-items: flex-end
+		margin-top: $gap*3 
+		padding-bottom: $gap
+		font-size: 13px
+		padding-top: 25px
+		border-top: 1px rgba(255,255,255,.35) solid
+		>*
+			img 
+				left: -4px	
+				margin-bottom: 15px		
+			+mq(914px, max)
+				flex: 1
+				width: 100%
+				&:first-of-type 
+					order: 2
+					display: flex
+					flex-flow: column
+					justify-content: center
+					align-items: center
+					text-align: center			
+					margin-top: $gap	
+					img 
+						left: 0
+						margin-bottom: $gap/2
+					& + *
+						order: 1		
+		form 
+			display: flex 
+			flex-flow: row wrap 
+			justify-content: flex-end
+			align-items: stretch
+			position: relative
+			+mq(914px, max)
+				margin-bottom: $gap
+			.alert 
+				position: absolute
+				bottom: -24px
+				right: 0
+				padding: 0
+				margin: 0
+				font-style: italic	
+			.btn 
+				padding: 0 $gap
+				height: $gap
+				+mq(914px, max)
+					height: auto
+					flex: 0 0 auto 
+					width: 100%
+					padding: $gap/3
+			input,
+			textarea
+				@extend .btn
+				@extend .btn-1
+				background: none!important
+				text-align: left!important
+				line-height: 2
+				display: block
+				resize: none
+				overflow: hidden
+				color: inherit!important
+				width: 100%
+				padding: 0 8px 8px!important
+				height: $gap
+				&[placeholder]
+				    color: whitesmoke
+				&::-moz-placeholder
+				    color: whitesmoke
+				&::-webkit-input-placeholder
+				    color: whitesmoke
+				&:-ms-input-placeholder 
+				    color: whitesmoke
+			input 
+				padding: 0 8px!important
+			textarea
+				+mq(915px, min)
+					padding-right: 60px
+				+mq(914px, max)
+					height: 90px
+					padding: 8px
+			p 
+				flex: 0 0 auto 
+				width: 100%
+				text-align: right
+				margin-bottom: $gap/2	
+				+mq(914px, max)
+					text-align: center
+				strong, b 
+					font-weight: 500
+					font-size: 19px			
+			div 
+				flex: 1
+				padding-right: $gap/2
+				+mq(914px, max)
+					padding-right: 0
+					padding-bottom: $gap/2
+					flex: 0 0 auto 
+					width: 100%

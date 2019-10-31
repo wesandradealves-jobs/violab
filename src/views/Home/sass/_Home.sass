@@ -1,0 +1,254 @@
+@import '../../../assets/sass/tools/_mixins' 
+
+$sectionGap: 80px
+
+.pg-home
+	section
+		color: white
+		&:not(.webdoor):not(.loja)
+			padding-top: 100px
+			margin-bottom: $sectionGap/2
+		h2
+			font-family: 'AdihausDIN Cn'
+			font-size: 38px
+			font-weight: bold
+			margin-bottom: $sectionGap/2
+		&.artigos 
+			.container 
+				>a 
+					margin-left: auto
+					display: block
+					text-align: right
+					font-size: 18px
+					color: #c5c396
+					&:hover
+						text-decoration: underline
+					margin-top: 15px		
+				.VueCarousel
+					&-slide
+						.inner-info
+							padding: 30px
+							text-align: center 
+							cursor: pointer
+							display: flex
+							flex-flow: column
+							justify-content: flex-end	
+							height: 100%				
+							&:hover h3 
+								color: white
+							.thumbnail
+								display: block
+								background-position: center
+								background-size: cover 
+								background-repeat: no-repeat
+								width: 100%
+								padding: 0 0 100%
+								position: relative
+								overflow: hidden
+								&:hover .-zoom 
+									transform: scale(1.05)
+								&.-zoom
+									position: absolute
+									top: 0
+									left: 0
+									padding: 0
+									height: 100%
+									width: inherit
+									transition: 500ms ease all
+							h3 
+								font-weight: bold
+								font-size: 17px
+								color: #d5d1ca
+								&:not(:only-child)
+									margin-top: 15px
+					&-navigation
+						position: absolute
+						top: 50%
+						left: 0
+						width: 100%
+						z-index: 15
+						height: 0
+						justify-content: space-between
+						align-items: center
+						display: flex
+						padding: 0 30px
+						&-button
+							color: inherit
+							font-size: 35px
+							margin: 0
+							top: 0
+							line-height: 0
+							cursor: pointer
+							position: relative
+							&:focus
+								outline: 0
+								box-shadow: initial
+						&-prev 
+							left: initial
+						&-next
+							right: initial
+					&-dot
+						&-container 
+							margin-top: 0!important
+						&--active
+							background-color: orange!important		
+		&.movimento 
+			background-repeat: no-repeat
+			background-size: contain 
+			background-position: 0 0
+			.container
+				padding: 30px 
+				+mq(814px, max)
+					padding: 0
+					background-image: none!important
+				text-shadow: 1px 2px 2px black
+				display: flex
+				flex-flow: row
+				+mq(814px, max)
+					flex-flow: column wrap
+				justify-content: space-between
+				align-items: stretch
+				.movimento-text-wrap
+					display: flex 
+					flex-flow: row wrap 
+					justify-content: space-between
+					align-items: flex-start	
+					h2 
+						flex: 0 0 auto 
+						+mq(814px, max)
+							width: 100%
+							margin-bottom: 15px
+						& + * 
+							flex: 1 
+							padding-left: $sectionGap/2
+							+mq(814px, max)
+								padding-left: 0
+								flex: 0 0 auto 
+								width: 100%					
+							strong 
+								font-size: 1.6rem
+							p 
+								display: block 
+								font-size: 1rem
+								line-height: 1.6
+								&:not(:last-of-type)
+									margin-bottom: 15px
+				.video-list 
+					display: flex
+					overflow: hidden
+					flex-flow: column wrap
+					iframe 
+						height: 220px
+						width: 100%
+					>* 
+						&:not(:last-child)
+							margin-bottom: $sectionGap/2
+				>* 
+					display: flex 
+					flex-flow: row wrap 
+					justify-content: space-between
+					align-items: flex-start
+					flex: 0 0 auto 
+					width: 100%
+					&:not(:only-child)
+						flex: 1
+						&:first-child
+							padding-right: $sectionGap/2
+							flex: 0 0 auto 
+							width: 70%
+							+mq(814px, max)
+								width: 100%
+								padding-right: 0
+								padding-bottom: $sectionGap/2
+							& + *
+								flex: 1
+								+mq(814px, max)
+									flex: 0 0 auto 
+									width: 100%
+		&.loja 
+			+mq(814px, max)
+				margin-top: 0
+				margin-bottom: $sectionGap/2
+			.container
+				display: flex
+				flex-flow: row wrap
+				align-items: stretch 
+				justify-content: space-between
+				h2 
+					flex: 0 0 auto 
+					width: 100%
+				>div
+					flex: 1
+					&:first-of-type
+						&:not(:only-of-type)
+							width: 69%
+							flex: 0 0 auto 
+							+mq(970px, max)
+								flex: 1
+								+mq(814px, max)
+									flex: 0 0 auto 
+									width: 100%
+									padding-right: 0 
+									padding-bottom: $sectionGap/2
+									& + *
+										flex: 0 0 auto 
+										width: 100%
+										+mq(814px, max)
+											iframe
+												height: 450px!important
+				.product-list
+					display: flex
+					flex-flow: row wrap
+					align-items: stretch				
+					h3
+						font-size: 24px
+						font-weight: bold	
+						+mq(414px, max)
+							font-size: 18px			
+					p 
+						font-size: 14px 
+						line-height: 1.6	
+						margin: 15px auto
+						+mq(414px, max)
+							font-size: 12px
+					>*
+						display: flex
+						flex: 0 0 auto
+						width: 33.333%
+						flex-flow: column
+						padding-right: 15px
+						+mq(1024px, max)
+							width: 50%
+							+mq(814px, max)
+								width: 100%
+								padding-right: 0
+						>*
+							position: relative
+							.thumbnail
+								position: absolute
+								top: 0
+								left: 0
+								display: block
+								height: 100%
+								width: 100%
+								background-size: cover
+								background-position: center center 
+								background-repeat: no-repeat
+							&:first-of-type
+								flex: 0 0 auto 
+								width: 100%
+								height: 250px
+								background-size: cover
+								background-position: center center 
+								background-repeat: no-repeat
+								margin-bottom: 15px
+								+mq(667px, max)
+									padding: 0 0 100%
+									margin-bottom: $sectionGap/2
+							&:last-of-type 
+								&:not(:only-of-type)
+									flex: 1
+									+mq(667px, max)
+										width: 100%
+						&:not(:last-of-type)
+							margin-bottom: $sectionGap/2
