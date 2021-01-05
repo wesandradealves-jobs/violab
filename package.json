@@ -13,7 +13,7 @@
   "dependencies": {
     "@algoz098/vue-player": "^0.4.2",
     "animate.css": "^3.7.2",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "busca-cep": "^0.5.0",
     "cls-bluebird": "^2.1.0",
     "core-js": "^2.6.5",
